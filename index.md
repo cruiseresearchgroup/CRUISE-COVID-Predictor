@@ -40,11 +40,18 @@ This project is about exploring the Symptom Survey data. For more details, pleas
 
 #### Without Less Important Signals
 
-
 #### Prediction VS Real
 
+![](figs/Fig 6.png)
+
+![](figs/Fig 7.png)
+
+![](figs/Fig 8.png)
+
+![](figs/Fig 9.png)
 
 ### Conclusion
+
 - Symptom Surveys dataset would be very useful for future prediction of COVID-19 cases.
 - Not all signals are useful for predictions. Important signals are more helpful for the prediction.
 - Our model is able to predict the trend (decreasing/increasing) of the case number of a state with selected important signals.
