@@ -26,11 +26,13 @@ This project is about exploring the Symptom Survey data. For more details, pleas
 
 #### Framework
 
-
+![](figs/framework.png)
 
 #### Sliding Window
 
+![](figs/sliding_7.png)
 
+![](figs/sliding_14.png)
 
 ### Results
 
