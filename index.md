@@ -1,5 +1,5 @@
 This project is about exploring the Symptom Survey data. For more details, please check [The COVID-19 Symptom Data Challenge
-](https://www.symptomchallenge.org/challenge).
+](https://www.symptomchallenge.org/challenge). This work is presented by RMITCruisers!
 
 
 
@@ -21,12 +21,43 @@ This project is about exploring the Symptom Survey data. For more details, pleas
 
 ### Methods
 
+#### Feature Selection
+
+
+#### Framework
+
+
+
+#### Sliding Window
+
+
+
 ### Results
 
-### Conclusion
+#### Results of Four States
 
+#### Without Less Important Signals
+
+
+#### Prediction VS Real
+
+
+### Conclusion
+- Symptom Surveys dataset would be very useful for future prediction of COVID-19 cases.
+- Not all signals are useful for predictions. Important signals are more helpful for the prediction.
+- Our model is able to predict the trend (decreasing/increasing) of the case number of a state with selected important signals.
 
 
 ### Future Work
+- Combining other open datasets to further improve the prediction performance.
+- Integrate our prediction model into COVID Forecast Hub for better visualization.
+- How to make recommendations for the government regarding policy decisions based on the prediction results.
+
+
+
+
+#### Contacts
+
+Hao Xue (hao.xue@rmit.edu.au)
 
 
