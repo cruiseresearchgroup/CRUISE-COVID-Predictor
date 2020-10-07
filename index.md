@@ -118,7 +118,7 @@ Top 5 important signals using Correlation_Attribute_Evaluation with Ranker searc
 | :----------------------------------------------------------: |
 | *The RMSE results of using the LSTM model with different configurations and states.* |
 
-#### Without Less Important Signals
+#### With less important signals removed
 
 | <img src="figs/remove_less.png" alt="drawing" width="500"/> |
 |:--:|
