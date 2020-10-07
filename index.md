@@ -114,13 +114,13 @@ Top 5 important signals using Correlation_Attribute_Evaluation with Ranker searc
 
 #### Results of Four States
 
-|<img src="![](figs/rmse_results.png) alt="drawing" width="200"/>|
-|:--:|
+| <img src="figs/rmse_results.png" alt="drawing" width="500"/> |
+| :----------------------------------------------------------: |
 | *The RMSE results of using the LSTM model with different configurations and states.* |
 
 #### Without Less Important Signals
 
-|![](figs/remove_less.png)|
+| <img src="figs/remove_less.png" alt="drawing" width="500"/> |
 |:--:|
 | *The RMSE results after removing the less important signals.* |
 
