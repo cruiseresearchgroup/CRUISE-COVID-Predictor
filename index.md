@@ -11,8 +11,6 @@ This project is about exploring the Symptom Survey data. For more details, pleas
 4. Is our proposed model able to predict the status of COVID-19 in the next period for a specific region?
 
 
-
-
 ### Data
 
 1. [CMU US Symptom Survey](https://cmu.app.box.com/s/ymnmu3i125go4aue0qxosi3rbcae20bj)
@@ -22,6 +20,8 @@ This project is about exploring the Symptom Survey data. For more details, pleas
 ### Methods
 
 #### Feature Selection
+
+Survey symptom data consist of 49 signals. To study the effectiveness of each signal on our regression task (predicting the COVID-19 number of cases in the next period), we applied several feature importances and selection methods.
 
 Top 10 important signals using Correlation-based Feature Subset Selection (CfsSubsetEval) with Best-First searching method:
 
@@ -59,7 +59,7 @@ Top 5 important signals using Correlation_Attribute_Evaluation with Ranker searc
 
 #### Signal Correlation Level
 
-| `**Signal**`                                          | **Correlation Coefficient with:** |                                |                                 | **Correlation Level** |
+| Signal                                                | **Correlation Coefficient with:** |                                |                                 | **Correlation Level** |
 | ----------------------------------------------------- | --------------------------------- | ------------------------------ | ------------------------------- | --------------------- |
 |                                                       | Number   of cases at Day (t)      | Number   of cases at Day (t+7) | Number   of cases at Day (t+14) |                       |
 | `**pct_cli**`                                         | 0.845794                          | 0.839775                       | 0.778659                        | High                  |
@@ -114,7 +114,15 @@ Top 5 important signals using Correlation_Attribute_Evaluation with Ranker searc
 
 #### Results of Four States
 
+|![](figs/rmse_results.png)|
+|:--:|
+| *The RMSE results of using the LSTM model with different configurations and states.* |
+
 #### Without Less Important Signals
+
+|![](figs/remove_less.png)|
+|:--:|
+| *The RMSE results after removing the less important signals.* |
 
 #### Prediction VS Real
 
@@ -139,6 +147,12 @@ Top 5 important signals using Correlation_Attribute_Evaluation with Ranker searc
 - How to make recommendations for the government regarding policy decisions based on the prediction results.
 
 
+
+#### Team Members
+- Futoon Abu Shaqra 
+- Flora Salim
+- Yongli Ren
+- Hao Xue
 
 
 #### Contacts
