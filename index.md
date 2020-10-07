@@ -114,7 +114,7 @@ Top 5 important signals using Correlation_Attribute_Evaluation with Ranker searc
 
 #### Results of Four States
 
-|![](figs/rmse_results.png)|
+|![](figs/rmse_results.png){width=50%}|
 |:--:|
 | *The RMSE results of using the LSTM model with different configurations and states.* |
 
